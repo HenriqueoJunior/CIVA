@@ -1,2 +1,0 @@
-# CIVA
-My CIVA project
