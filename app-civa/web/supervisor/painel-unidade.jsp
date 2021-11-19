@@ -79,13 +79,17 @@
                         </div>
                         <!-- /.row -->
                     </div>
-
+                    <div class="col-12 row">
+                        <div class="mb-3 mt-3">
+                            <a href="./vincular-unidade.jsp" class="btn btn-primary btn-lg">Vincular Profissional de Sa&uacute;de</a>
+                        </div>
+                    </div>
                     <!-- TABELA VACINAS -->
                     <div class="row">
                         <div class="col-12 mb-2">
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Gestor Vinculados</h3>
+                                    <h3 class="card-title">Profissionais de Sa&uacute;de Vinculados</h3>
 
                                     <div class="card-tools">
                                         <div class="input-group input-group-sm" style="width: 150px;">
@@ -103,28 +107,33 @@
                                                 <th>Nome</th>
                                                 <th>Identidade</th>
                                                 <th>C&oacute;digo CIVA</th>
+                                                <th>Desvincular Unidade</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>Maria Souza da Silva</td>
                                                 <td>123.159.875-05</td>
-                                                <td>BRA5521123456789</td>    
+                                                <td>BRA5521123456789</td>
+                                                <td><input class="btn btn-block" type="checkbox"></td>
                                             </tr>
                                             <tr>
                                                 <td>Maria Souza da Silva</td>
                                                 <td>123.159.875-05</td>
-                                                <td>BRA5521123456789</td>    
+                                                <td>BRA5521123456789</td>
+                                                <td><input class="btn btn-block" type="checkbox"></td>
                                             </tr>
                                             <tr>
                                                 <td>Maria Souza da Silva</td>
                                                 <td>123.159.875-05</td>
-                                                <td>BRA5521123456789</td>    
+                                                <td>BRA5521123456789</td>
+                                                <td><input class="btn btn-block" type="checkbox"></td>
                                             </tr>
                                             <tr>
                                                 <td>Maria Souza da Silva</td>
                                                 <td>123.159.875-05</td>
-                                                <td>BRA5521123456789</td>    
+                                                <td>BRA5521123456789</td>   
+                                                <td><input class="btn btn-block" type="checkbox"></td>
                                             </tr>
                                         </tbody>
                                     </table>

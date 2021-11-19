@@ -42,7 +42,7 @@
 
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="painel-profissional-saude.jsp">Voltar</a></li>
+                                <li class="breadcrumb-item"><a href="painel-unidade.jsp">Voltar</a></li>
                                 <li class="breadcrumb-item active">Vincular Unidade</li>
                             </ol>
                         </div>
@@ -69,8 +69,8 @@
                                     <div class="p-2">
                                         <div class="row">
                                             <div class="form-group col-xl-12">
-                                                <label for="id-unidade">ID Unidade</label>
-                                                <input type="text" class="form-control" id="id-unidade" name="id-unidade" value="1234567">
+                                                <label for="id-unidade">C&oacute;digo CIVA</label>
+                                                <input type="text" class="form-control" id="id-unidade" name="id-unidade" value="BR1234567">
                                             </div>
                                         </div>
                                         <hr>
@@ -189,7 +189,7 @@
 
                     <!-- /.row -->
                 </div><!-- /.container-fluid -->
-                <%@ include file="../partials/modals-unidade-vinc.jspf" %>
+                <%@ include file="../partials/modals-dadospessoais-disabled.jspf" %>
             </div>
             <!-- /.content -->
         </div>
